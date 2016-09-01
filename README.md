@@ -59,3 +59,4 @@ Link utili:
 https://msdn.microsoft.com/library/dn771552.aspx#NET
 # Test
 # Test
+DeliverApplication
