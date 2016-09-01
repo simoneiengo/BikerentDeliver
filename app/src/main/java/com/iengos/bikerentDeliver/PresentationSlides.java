@@ -1,4 +1,4 @@
-package com.iengos.bikerent;
+package com.iengos.bikerentDeliver;
 
 import android.app.Dialog;
 import android.content.Intent;

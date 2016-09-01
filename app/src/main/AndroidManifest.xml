@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.iengos.bikerent" >
+    package="com.iengos.bikerentDeliver" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -42,14 +42,6 @@
 
         <activity
             android:name=".PresentationSlides"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:noHistory="true"
-            android:screenOrientation="portrait" >
-        </activity>
-
-        <activity
-            android:name=".Login"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:noHistory="true"

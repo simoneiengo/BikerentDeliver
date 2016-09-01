@@ -1,12 +1,10 @@
-package com.iengos.bikerent;
+package com.iengos.bikerentDeliver;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
-
-import java.util.HashMap;
 
 
 /**

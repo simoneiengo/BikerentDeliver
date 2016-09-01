@@ -1,4 +1,4 @@
-package com.iengos.bikerent;
+package com.iengos.bikerentDeliver;
 
 /**
  * Created by Dave on 30/08/2016.

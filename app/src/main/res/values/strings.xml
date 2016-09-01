@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BikeRent</string>
+    <string name="app_name">BikeRentDeliver</string>
     <string name="google_play_API">AIzaSyBhyzGwDbMC1gYnWyvbxyo_1EeLZTmsl_8</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -14,17 +14,7 @@
     <string name="tv_login_password">Password</string>
     <string name="pd_login_msg">Sto eseguendo l\'accesso..</string>
     <string name="pd_login_failed">Login fallito..</string>
-    <string name="pd_login_error">C\'è stato un errore nella connessione. Riprovare più tardi,</string>
-
-    <!-- SLIDE_REGISTRATION ACTIVITY -->
-    <string name="tv_reg_name">Nome</string>
-    <string name="tv_reg_surname">Cognome</string>
-    <string name="tv_reg_phone">Telefono</string>
-    <string name="tv_reg_rules">Ho letto il regolamento</string>
-    <string name="rb_reg_male">Uomo</string>
-    <string name="rb_reg_female">Donna</string>
-    <string name="bt_reg_submit">Registrati</string>
-    <string name="tv_reg_already">Sei già registrato?</string>
+    <string name="pd_login_error">C\'è stato un errore nella connessione. Riprovare più tardi.</string>
 
     <!-- CONTENT_PROFILE ACTIVITY -->
     <string name="label_account_surname">Cognome</string>
@@ -39,9 +29,9 @@
     <string name="account_save">Salva</string>
     <string name="profile_label">PROFILE</string>
     <string name="info_label">Information</string>
-    <string name="account_bike_num">Bike N</string>
+    <string name="account_bike_num">Bike #</string>
     <string name="account_price">Price</string>
-    <string name="account_num_ord">N.X</string>
+    <string name="account_num_ord">#X</string>
     <string name="account_time">Date</string>
     <string name="account_countDown">CountDown</string>
 </resources>
