@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- usefull link https://developers.google.com/maps/documentation/android-api/map -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:cameraBearing="0"
+        map:cameraTargetLat="40.853294"
+        map:cameraTargetLng="14.305573"
+        map:cameraTilt="20"
+        map:cameraZoom="9"
+        map:mapType="satellite"
+        map:uiCompass="true"
+        map:uiRotateGestures="true"
+        map:uiScrollGestures="true"
+        map:uiTiltGestures="true"
+        map:uiZoomGestures="true"
+        map:uiZoomControls="true"
+        tools:ignore="MissingPrefix" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:padding="7dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="11dp"
+            android:background="#BEEE"
+            android:src="@drawable/ic_numbered_list"
+            android:onClick="switchToList" />
+    </fragment>
+</LinearLayout>

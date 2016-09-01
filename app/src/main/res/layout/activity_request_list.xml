@@ -1,0 +1,170 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    tools:context="com.iengos.bikerent.RequestList"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="7"
+    android:rowCount="5"
+    android:orientation="horizontal">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="top|center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_account_circle"
+        app:civ_border_color="#EEE"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="2"
+        app:civ_shadow_color="#AAA"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="4" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:inputType="textCapSentences"
+        android:text="@string/account_name"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"/>
+
+    <TextView
+        android:id="@+id/Surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="@string/account_surname"
+        android:inputType="textCapSentences"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_navigation"
+        app:civ_border_color="#EEE"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="0"
+        app:civ_shadow_color="#AAA"
+        android:layout_columnSpan="3"
+        android:layout_rowSpan="2"
+        android:onClick="navigate"/>
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="@string/account_cellulare"
+        android:inputType="textCapSentences"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="@string/account_email"
+        android:layout_columnSpan="3"
+        android:layout_rowSpan="1"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:src="@drawable/ic_telephone_green"
+        app:civ_border_color="#EEE"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="0"
+        app:civ_shadow_color="#AAA"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:onClick="call"/>
+
+    <TextView
+        android:id="@+id/BikeNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="@string/account_bike_num"
+        android:inputType="textCapSentences"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"/>
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="@string/account_price"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"/>
+
+    <TextView
+        android:id="@+id/NumReq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:textSize="15dp"
+        android:text="@string/account_num_ord"
+        android:inputType="textCapSentences"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"/>
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="@string/account_time"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_delete_cross_red"
+        app:civ_border_color="#EEE"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="0"
+        app:civ_shadow_color="#AAA"
+        android:layout_columnSpan="3"
+        android:layout_rowSpan="2"
+        android:onClick="closeRequest"/>
+
+</GridLayout>
